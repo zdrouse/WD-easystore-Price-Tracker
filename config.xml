@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Configurations>
+	<SMTPConfig>
+		<SMTPServer>smtp.gmail.com</SMTPServer>
+		<SMTPPort>587</SMTPPort>
+		<MailFrom>email@gmail.com</MailFrom>
+		<MailTo>email@gmail.com</MailTo>
+	</SMTPConfig>
+	<GmailAccountConfig>
+		<EmailAccount>email@gmail.com</EmailAccount>
+		<GoogleAppPassword>**********</GoogleAppPassword>
+	</GmailAccountConfig>
+</Configurations>
