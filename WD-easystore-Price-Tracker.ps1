@@ -72,7 +72,7 @@ Write-Host "Tracking price for WD - easystore® 8TB External USB 3.0 Hard Drive 
 $counter = 0
 
 # Use this to test the email message by swapping the current price from price history
-[Decimal]$testEmail = 180.00
+# [Decimal]$testEmail = 180.00
 
 # Infinite loop
 while ($true) {
@@ -91,7 +91,7 @@ while ($true) {
         Compare-Prices $currentPrice $priceHistory[$counter-1]
     }
     # Time and Progress bar handlers.
-    $seconds = 10
+    $seconds = 3600
     $minutes = $seconds / 60
     foreach ($count in (1..$seconds)) {
         Write-Progress -PercentComplete (($count/$seconds) * 100) -Activity "Checking price again in $minutes minutes" -SecondsRemaining ($seconds - $count)

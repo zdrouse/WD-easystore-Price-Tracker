@@ -14,13 +14,21 @@ Assuming `git` is installed on the local machine:
  - Perform `git clone https://github.com/rousez/WD-easystore-Price-Tracker`.
 
 ## Configure
-Modify the `config.xml` file to provide your email information.
+In the `config.xml` file:
+ - Provide this file your specific email account information.
 
-If you have 2-factor authentication on your Gmail account (which you should), it is best to generate a Google App password which can be used for specific application permissions like sending email.  Please refer to information on how to [generate a Google App Password](https://support.google.com/accounts/answer/185833?hl=en). See below for generation type:
+ - If you have 2-factor authentication on your Gmail account (which you should), it is best to generate a Google App password which can be used for specific application permissions like sending email.  Please refer to information on how to [generate a Google App Password](https://support.google.com/accounts/answer/185833?hl=en). See below for generation type:
 
-![Generate a Mail and Windows Computer App Password](https://i.imgur.com/JNW4abo.png)
+  ![Generate a Mail and Windows Computer App Password](https://i.imgur.com/JNW4abo.png)
 
-Supply the configuration xml file the 16-digit passcode.
+ - Supply the configuration xml file the 16-digit passcode.
+
+In the `WD-easystore-Price-Tracker.ps1` file:
+
+ - Default time-checking interval is 1 hour (3600 seconds).  Adjust the `$seconds` variable for a custom time.
+ 
+ - This script can be used to track the price of any Best Buy item by providing the SKU ID.  You can change the `$skuId` variable to another item if you desire.
+
 
 ## Run
 Right-click the PowerShell file and run with PowerShell.  This may require allowing PowerShell scripts to run on your machine.
