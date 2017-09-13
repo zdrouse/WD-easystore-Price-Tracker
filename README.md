@@ -23,4 +23,4 @@ If you have 2-factor authentication on your Gmail account (which you should), it
 Supply the configuration xml file the 16-digit passcode.
 
 ## Run
-Right-click the PowerShell file and run with PowerShell.  This may require allowing 
+Right-click the PowerShell file and run with PowerShell.  This may require allowing PowerShell scripts to run on your machine.
