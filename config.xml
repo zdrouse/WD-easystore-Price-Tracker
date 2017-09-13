@@ -3,11 +3,12 @@
 	<SMTPConfig>
 		<SMTPServer>smtp.gmail.com</SMTPServer>
 		<SMTPPort>587</SMTPPort>
+		<Subject>WD easystore 8TB Price Update</Subject>
 		<MailFrom>email@gmail.com</MailFrom>
 		<MailTo>email@gmail.com</MailTo>
 	</SMTPConfig>
 	<GmailAccountConfig>
 		<EmailAccount>email@gmail.com</EmailAccount>
-		<GoogleAppPassword>**********</GoogleAppPassword>
+		<GoogleAppPassword>****************</GoogleAppPassword>
 	</GmailAccountConfig>
 </Configurations>
