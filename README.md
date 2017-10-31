@@ -11,7 +11,7 @@ PowerShell 3.0+ must be installed.
 Assuming `git` is installed on the local machine:
 
  - Open `command-prompt` and `cd` to a location/folder to save the project.
- - Perform `git clone https://github.com/rousez/WD-easystore-Price-Tracker`.
+ - Perform `git clone https://github.com/zdrouse/WD-easystore-Price-Tracker`.
 
 ## Configure
 In the `config.xml` file:
